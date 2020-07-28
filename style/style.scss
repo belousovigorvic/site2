@@ -1,0 +1,305 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0px;
+	padding: 0px;
+}
+p {
+	margin: 0px;
+	padding: 0px;
+}
+@mixin h2 {
+	color: #5D6B76;
+	font-size: 45px;
+	font-weight: 400;
+	padding-top: 100px;
+}
+@mixin p {
+	color: #87949E;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 2;
+	padding: 40px 0px
+}
+.head {
+	background-image: url("../");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 60px;
+}
+nav {
+	float: right;
+	.menu {
+		margin-left: 40px;
+		font-weight: 700;
+		text-transform: uppercase;
+		color: #fff;
+		font-size: 13px;
+	}
+}
+.intro {
+	color: #fff;
+	padding-top: 340px;
+	p {
+		font-size: 17px;
+		font-weight: 400;
+		text-align: center;
+		padding-top: 20px;
+	}
+	h1 {
+		text-align: center;
+		span {
+			font-weight: 100;
+		}
+	}
+}
+.btn {
+	padding: 8px 45px;
+	font-weight: 700;
+	border: 2px solid;
+	border-radius: 20px;
+}
+.but {
+	margin-top: 60px;
+	text-align: center;
+	padding-bottom: 420px;
+}
+.part_two {
+	h2 {
+		@include h2;
+		text-align: center;
+		&:after {
+			display: block;
+			content: "";
+			height: 2px;
+			width: 30px;
+			background-color: #17DAA3;
+			margin: 25px auto;
+		}
+	}
+}
+.tx {
+	p {
+		@include p;
+	}
+}
+.stolb {
+	padding-top: 120px;
+	text-align: center;
+	h3 {
+		padding: 40px 25px;
+		font-weight: 700;
+	}
+	p {
+		@include p;
+	}
+}
+.btn-success {
+	background-color: #17DAA3;
+}
+.butt {
+	padding: 70px 0px;
+	text-align: center;
+	margin: 0 auto;
+}
+.part_three, .part_four {
+	button {
+		margin-bottom: 70px;
+	}
+	.text3 {
+		text-align: left;
+	}
+	h2 {
+		@include h2;
+	}
+	p {
+		@include p;
+	}
+}
+.part_three {
+	background-color: #F4F4F4;
+}
+.part_five {
+	background-image: url("../img/Po.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align:center;
+	padding-top: 140px;
+	p {
+		padding-bottom: 200px;
+		color: #464646;
+	}
+	h3 {
+		font-weight: 400;
+		font-size: 25px;
+		padding: 40px 0px;
+		color: #fff;
+		span {
+		color: #17DAA3;
+	}
+	}
+}
+.part_six {
+	background-color: #F4F4F4;
+	p {
+		@include p;
+	}
+	img {
+		display: inline;
+	}
+	h3 {
+		@include h2;
+		text-align: left;
+		display: inline;
+	}
+	h2 {
+		@include h2;
+		text-align: center;
+		&:after {
+			display: block;
+			content: "";
+			height: 2px;
+			width: 30px;
+			background-color: #17DAA3;
+			margin: 25px auto;
+		}
+	}
+}
+.cart {
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+.part_seven {
+	p {
+		@include p;
+	}
+	img {
+		display: inline;
+	}
+	h3 {
+		@include h2;
+		text-align: left;
+		display: inline;
+	}
+	h2 {
+		@include h2;
+		text-align: center;
+		&:after {
+			display: block;
+			content: "";
+			height: 2px;
+			width: 30px;
+			background-color: #17DAA3;
+			margin: 25px auto;
+		}
+	}
+}
+.box {
+	padding: 0;
+	margin: 0;
+	height: 300px;
+	line-height: 300px;
+	text-align: center;
+	border-bottom: 1px solid #fff;
+}
+.box1 {
+	background-color: #BEBEBE;
+}
+.box2 {
+	background-color: #AEAEAE;
+}
+.box3 {
+	background-color: #BEBEBE;
+}
+.box4 {
+	background-color: #AEAEAE;
+}
+.part_eight {
+	background-color: #EEEEF0;
+	padding-bottom: 45px;
+	p {
+		@include p;
+	}
+	img {
+		display: inline;
+	}
+	h3 {
+		@include h2;
+		text-align: left;
+		display: inline;
+	}
+	h2 {
+		@include h2;
+		text-align: center;
+		&:after {
+			display: block;
+			content: "";
+			height: 2px;
+			width: 30px;
+			background-color: #17DAA3;
+			margin: 25px auto;
+		}
+	}
+}
+	.btnn {
+	background-color: #17DAA3;
+	height: 70px;
+	line-height: 70px;
+	border-radius: 5px;
+	margin-bottom: 40px;
+	transition: background-color 1s;
+	&:hover {
+		background-color: #0D795B;
+	}
+		img {
+			padding-left: 80px;
+		}
+		a {
+			padding-left: 30px;
+			text-transform: uppercase;
+			font-weight: 900;
+			color: #fff;
+		}
+	}
+.pric {
+	h3 {
+		color: #17DAA3;
+		display: block;
+	}
+	margin: 0px 15px;
+	-webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 50px -18px rgba(0,0,0,0); 
+	box-shadow: 0px 10px 13px -7px #000000, 5px 5px 50px -18px rgba(0,0,0,0);
+}
+.pricinggg {
+	margin: 0 auto;
+	width: 100%;
+}
+.part_three, .part_nine {
+	button {
+		margin-bottom: 70px;
+	}
+	.text3 {
+		text-align: left;
+	}
+	h2 {
+		@include h2;
+	}
+	p {
+		@include p;
+	}
+}
+.part_nine {
+	background-image: url("../img/Map.png");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+footer {
+	background-color: #EEEEF0;
+	p {
+		margin-left: 25px;
+	}
+}
